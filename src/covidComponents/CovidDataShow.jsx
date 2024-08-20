@@ -68,28 +68,28 @@ const CovidDataShow = ({ covidData }) => {
   const testsIncreasingFormatting = formatter.format(totalTestResultsIncrease);
 
   return (
-    <div>
-      <li>
-        Date: {year}/{month}/{day}
-      </li>
-      <li>Total Death: {deathFormatted}</li>
-      <li>Death Increase: {deathIncreaseFormatted}</li>
-      <li>Hospitalized Cumulative: {hospitalizedCumulativeFormatting}</li>
-      <li>Hospitalized Currently: {hospitalizedCurrentlyFormatting}</li>
-      <li>Hospitalized Increase: {hospitalizedIncreasingFormatting}</li>
-      <li>In ICU Cumulative: {icuCumulativeFormatting}</li>
-      <li>In ICU Currently: {icuCurrentlyFormatting}</li>
-      <li>Negative: {negativeFormatting}</li>
-      <li>Negative Increase: {negativeIncreaseFormatting}</li>
-      <li>On Ventilator Cumulative: {ventilatorCumulativeFormatting}</li>
-      <li>On Ventilator Currently: {ventilatorCurrentlyFormatting}</li>
-      <li>Pending: {pendingFormatting}</li>
-      <li>Positive: {positiveFormatting}</li>
-      <li>Positive Increase: {positiveIncreaseFormatting}</li>
-      <li>States: {states}</li>
-      <li>Total Test Results: {testsFormatting}</li>
-      <li>Total Test Results Increase: {testsIncreasingFormatting}</li>
-    </div>
+    <>
+      <td>
+        {year}/{month}/{day}
+      </td>
+      <td>{deathFormatted}</td>
+      <td>{deathIncreaseFormatted}</td>
+      <td>{hospitalizedCumulativeFormatting}</td>
+      <td>{hospitalizedCurrentlyFormatting}</td>
+      <td>{hospitalizedIncreasingFormatting}</td>
+      <td>{icuCumulativeFormatting}</td>
+      <td>{icuCurrentlyFormatting}</td>
+      <td>{negativeFormatting}</td>
+      <td>{negativeIncreaseFormatting}</td>
+      <td>{ventilatorCumulativeFormatting}</td>
+      <td>{ventilatorCurrentlyFormatting}</td>
+      <td>{pendingFormatting}</td>
+      <td>{positiveFormatting}</td>
+      <td>{positiveIncreaseFormatting}</td>
+      <td>{states}</td>
+      <td>{testsFormatting}</td>
+      <td>{testsIncreasingFormatting}</td>
+    </>
   );
 };
 
