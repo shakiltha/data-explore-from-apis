@@ -6,7 +6,7 @@ const Pagination = ({ coronaPerPage, totalCorona, paginate }) => {
     pageNumbers.push(i);
   }
   return (
-    <div className="lg:mx-auto lg:w-2/4 lg:h-auto mt-4 m-2">
+    <div className="lg:ml-96 lg:w-2/4 lg:h-auto mt-4 m-2">
       {pageNumbers.map((number) => (
         <div className="join mt-2" key={number}>
           <button className="join-item btn" onClick={() => paginate(number)}>

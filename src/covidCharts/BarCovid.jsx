@@ -75,7 +75,7 @@ const BarCovid = ({ covid }) => {
 
   return (
     <div>
-      <div className="mt-4 w-full h-[30rem] lg:w-3/4 lg:h-[40rem] lg:ml-96">
+      <div className="mt-4 w-full h-[30rem] lg:w-[69%] lg:h-[40rem] lg:ml-80">
         <ResponsiveContainer width="100%" height="100%">
           <BarChart
             width={500}
@@ -107,7 +107,7 @@ const BarCovid = ({ covid }) => {
             />
             {/* Update Caption of the chart */}
             <Legend formatter={() => "Covid Data - 2020-21 (Death) - US"} />
-            <Bar yAxisId="left" dataKey="pv" fill="#8884d8" barSize={40} />
+            <Bar yAxisId="left" dataKey="pv" fill="#8884d8" barSize={35} />
             {/* <Bar yAxisId="right" dataKey="uv" fill="#82ca9d" /> */}
           </BarChart>
         </ResponsiveContainer>

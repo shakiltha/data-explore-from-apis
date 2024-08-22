@@ -3,9 +3,9 @@ import { NavLink } from "react-router-dom";
 
 const SideBar = () => {
   return (
-    <div className="drawer xl:drawer-open xl:fixed z-40 absolute top-0 left-0 w-12 h-12">
+    <div className="drawer lg:drawer-open lg:fixed z-40 absolute top-0 left-0 w-12 h-12">
       <input id="my-drawer" type="checkbox" className="drawer-toggle " />
-      <div className="drawer-content lg:z-50">
+      <div className="drawer-content lg:hidden lg:z-50">
         {/* Page content here */}
         <label
           htmlFor="my-drawer"

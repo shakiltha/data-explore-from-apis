@@ -56,7 +56,7 @@ const LineCovid = ({ monthlyCovid }) => {
   //   console.log(monthlyHospitalizedData);
 
   return (
-    <div className="mt-4 w-full h-[30rem] lg:w-3/4 lg:h-[40rem] lg:ml-96">
+    <div className="mt-4 w-full h-[30rem] lg:w-[68%] lg:h-[40rem] lg:ml-80">
       <ResponsiveContainer width="100%" height="100%">
         <LineChart
           width={500}
