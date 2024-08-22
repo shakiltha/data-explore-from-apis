@@ -3,6 +3,7 @@ import CovidData from "../covidComponents/CovidData";
 import fetchCovidData from "../utils/covidApi";
 import { useEffect } from "react";
 import Pagination from "../components/Pagination";
+import BarCovid from "../covidCharts/BarCovid";
 const Home = () => {
   const [corona, setCorona] = useState([]);
   const [loading, setLoading] = useState(false);
@@ -38,6 +39,7 @@ const Home = () => {
         totalCorona={corona.length}
         paginate={paginate}
       />
+      <BarCovid covid={corona} />
     </div>
   );
 };

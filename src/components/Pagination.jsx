@@ -12,7 +12,6 @@ const Pagination = ({ coronaPerPage, totalCorona, paginate }) => {
           <button className="join-item btn" onClick={() => paginate(number)}>
             {number}
           </button>
-          {/* <button className="join-item btn btn-active">2</button> */}
         </div>
       ))}
     </div>

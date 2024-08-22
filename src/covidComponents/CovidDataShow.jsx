@@ -1,7 +1,7 @@
 import PropTypes from "prop-types";
 
 const CovidDataShow = ({ covidData }) => {
-  let {
+  const {
     date,
     death,
     deathIncrease,
@@ -96,25 +96,4 @@ const CovidDataShow = ({ covidData }) => {
 CovidDataShow.propTypes = {
   covidData: PropTypes.object.isRequired,
 };
-//   date: PropTypes.number.isRequired,
-//   dateChecked: PropTypes.number.isRequired,
-//   death: PropTypes.number.isRequired,
-//   deathIncrease: PropTypes.number.isRequired,
-//   hospitalized: PropTypes.number.isRequired,
-//   hospitalizedCumulative: PropTypes.number.isRequired,
-//   hospitalizedCurrently: PropTypes.number.isRequired,
-//   hospitalizedIncrease: PropTypes.number.isRequired,
-//   inIcuCumulative: PropTypes.number.isRequired,
-//   inIcuCurrently: PropTypes.number.isRequired,
-//   lastModified: PropTypes.number.isRequired,
-//   negative: PropTypes.number.isRequired,
-//   negativeIncrease: PropTypes.number.isRequired,
-//   onVentilatorCumulative: PropTypes.number.isRequired,
-//   onVentilatorCurrently: PropTypes.number.isRequired,
-//   pending: PropTypes.number.isRequired,
-//   positive: PropTypes.number.isRequired,
-//   positiveIncrease: PropTypes.number.isRequired,
-//   states: PropTypes.number.isRequired,
-//   totalTestResults: PropTypes.number.isRequired,
-//   totalTestResultsIncrease: PropTypes.number.isRequired,
 export default CovidDataShow;
