@@ -28,7 +28,7 @@ const SideBar = () => {
             <NavLink to={"/"}>Home</NavLink>
           </li>
           <li>
-            <a>Sidebar Item 2</a>
+            <NavLink to={"/harry-potter"}>Harry Potter</NavLink>
           </li>
         </ul>
       </div>
