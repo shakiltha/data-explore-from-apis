@@ -30,6 +30,9 @@ const SideBar = () => {
           <li>
             <NavLink to={"/harry-potter"}>Harry Potter</NavLink>
           </li>
+          <li>
+            <NavLink to={"/us-universities"}>US University list</NavLink>
+          </li>
         </ul>
       </div>
     </div>

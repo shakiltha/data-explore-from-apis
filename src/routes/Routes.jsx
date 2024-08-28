@@ -3,6 +3,7 @@ import App from "../App";
 import Error from "../components/Error";
 import Home from "../pages/Home";
 import HarryPotter from "../pages/HarryPotter";
+import UsUniversities from "../pages/UsUniversities";
 
 const router = createBrowserRouter([
   {
@@ -17,6 +18,10 @@ const router = createBrowserRouter([
       {
         path: "/harry-potter",
         element: <HarryPotter />,
+      },
+      {
+        path: "/us-universities",
+        element: <UsUniversities />,
       },
     ],
   },
