@@ -49,7 +49,7 @@ const UsUniversities = () => {
           </p>
         }
       >
-        {universities.slice(0, currentPage * 10).map((item, idx) => (
+        {universities?.slice(0, currentPage * 10).map((item, idx) => (
           <div key={idx} className="p-2 border">
             <li className="text-xl font-bold">
               country: <span className="font-normal">{item.country}</span>
